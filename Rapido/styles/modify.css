@@ -1,0 +1,38 @@
+#divmodify{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#divmodify h2{
+    text-decoration: underline;
+    color: #004878;
+}
+
+#divmodify form{
+    margin: 0;
+    padding: 40px 0 5px 5px;
+    width: 100%;
+    text-align: left;
+}
+
+#divmodify form .modify{
+    margin-top: 6px;
+
+}
+
+#divmodify form div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#divmodify form div label{
+    float: left;
+    width: 30%;
+}
+
+#divmodify form div input{
+    width: 50%;
+}

@@ -1,0 +1,84 @@
+@media (min-width: 1000px){
+    .mybody table td{
+        font-size: 20px;
+    }
+    nav{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        margin: auto;
+    }
+
+    nav div{
+        width: 500px;
+    }
+
+    
+}
+
+header, header div{
+    color: #007ba8;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+header{
+    color: #007ba8;
+    box-shadow: 0px 1px 2px 1px;
+}
+
+
+
+nav div{
+    text-align: center;
+    margin: 10px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.corps #accueil{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.corps #accueil h3{
+    color: #007ba8;
+}
+
+button{
+    color: #007ba8;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80%;
+    box-shadow: 0px 1px 2px 1px;
+}
+
+#divchauffeur #formChauffeur, #divchauffeur #formdispChauffeur{
+    padding: 0;
+    text-align: center;
+}
+
+footer{
+    color: #007ba8;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+footer form #logout button{
+    position: absolute;
+    right: 45%;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -30px;
+    font-size: 18px;
+}

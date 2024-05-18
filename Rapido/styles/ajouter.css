@@ -1,0 +1,147 @@
+#divajouter{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+div h2{
+    text-decoration: underline;
+    color: #004878;
+}
+
+#divajouter form{
+    margin: 0;
+    padding: 40px 0 5px 5px;
+    width: 100%;
+    text-align: left;
+}
+
+#divajouter form .modify{
+    margin-top: 6px;
+
+}
+
+#divajouter form div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#divajouter form div label{
+    float: left;
+    width: 30%;
+}
+
+#divajouter form div input{
+    width: 50%;
+}
+
+/***********Chauffeur***********/
+
+#divchauffeur{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#divchauffeur h2{
+    text-decoration: underline;
+    color: #004878;
+}
+
+#divchauffeur form{
+    margin: 0;
+    padding: 40px 0 5px 5px;
+    width: 100%;
+    text-align: left;
+}
+
+#divchauffeur form .modify{
+    margin-top: 6px;
+
+}
+
+#divchauffeur form div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#divchauffeur form div label{
+    float: left;
+    width: 30%;
+}
+
+#divchauffeur form div input{
+    width: 50%;
+}
+
+/* #modifier un transport */
+
+#divmodify{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#divmodify h2{
+    text-decoration: underline;
+    color: #004878;
+}
+
+#divmodify form{
+    margin: 0;
+    padding: 40px 0 5px 5px;
+    width: 100%;
+    text-align: left;
+}
+
+#divmodify form .modify{
+    margin-top: 6px;
+}
+
+#divmodify form div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#divmodify form div label{
+    float: left;
+    width: 30%;
+}
+
+#divmodify form div input{
+    width: 50%;
+}
+
+#divmodify .btns{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 89%;
+    text-align: center;
+    right: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#divmodify .btns button{
+    padding: 0;
+    margin: 0;
+}
+
+#divmodify .btns .modify{
+    background-color: #004878;
+}
+
+
+#divmodify .btn-del .delete{
+    background-color: #cb8186;
+    float: right;
+    margin-right: 20%;
+    width: 100px;
+}
